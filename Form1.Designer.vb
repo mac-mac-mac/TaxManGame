@@ -71,6 +71,7 @@ Partial Class frmMain
         Me.lblTaxRound1 = New System.Windows.Forms.Label()
         Me.btnStartGame = New System.Windows.Forms.Button()
         Me.btnInstructions = New System.Windows.Forms.Button()
+        Me.lblInfo = New System.Windows.Forms.Label()
         Me.pnlPile.SuspendLayout()
         Me.pnlPlayer.SuspendLayout()
         Me.Panel1.SuspendLayout()
@@ -609,12 +610,24 @@ Partial Class frmMain
         Me.btnInstructions.Text = "How to Play"
         Me.btnInstructions.UseVisualStyleBackColor = True
         '
+        'lblInfo
+        '
+        Me.lblInfo.Font = New System.Drawing.Font("Book Antiqua", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblInfo.ForeColor = System.Drawing.Color.Navy
+        Me.lblInfo.Location = New System.Drawing.Point(12, 65)
+        Me.lblInfo.Name = "lblInfo"
+        Me.lblInfo.Size = New System.Drawing.Size(960, 50)
+        Me.lblInfo.TabIndex = 21
+        Me.lblInfo.Text = "Click the Start Game button to begin!"
+        Me.lblInfo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.PowderBlue
         Me.ClientSize = New System.Drawing.Size(984, 961)
+        Me.Controls.Add(Me.lblInfo)
         Me.Controls.Add(Me.btnInstructions)
         Me.Controls.Add(Me.btnStartGame)
         Me.Controls.Add(Me.Panel1)
@@ -686,4 +699,5 @@ Partial Class frmMain
     Friend WithEvents lblTaxRound1 As Label
     Friend WithEvents btnStartGame As Button
     Friend WithEvents btnInstructions As Button
+    Friend WithEvents lblInfo As Label
 End Class
