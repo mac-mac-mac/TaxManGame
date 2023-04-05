@@ -24,36 +24,36 @@ Partial Class frmMain
     Private Sub InitializeComponent()
         Me.lblHeading = New System.Windows.Forms.Label()
         Me.pnlPile = New System.Windows.Forms.Panel()
+        Me.btn12 = New System.Windows.Forms.Button()
+        Me.btn11 = New System.Windows.Forms.Button()
         Me.btn1 = New System.Windows.Forms.Button()
-        Me.lblPile = New System.Windows.Forms.Label()
         Me.btn2 = New System.Windows.Forms.Button()
+        Me.btn10 = New System.Windows.Forms.Button()
         Me.btn3 = New System.Windows.Forms.Button()
         Me.btn4 = New System.Windows.Forms.Button()
+        Me.btn9 = New System.Windows.Forms.Button()
         Me.btn5 = New System.Windows.Forms.Button()
         Me.btn6 = New System.Windows.Forms.Button()
-        Me.btn7 = New System.Windows.Forms.Button()
         Me.btn8 = New System.Windows.Forms.Button()
-        Me.btn9 = New System.Windows.Forms.Button()
-        Me.btn10 = New System.Windows.Forms.Button()
-        Me.btn11 = New System.Windows.Forms.Button()
-        Me.btn12 = New System.Windows.Forms.Button()
+        Me.btn7 = New System.Windows.Forms.Button()
+        Me.lblPile = New System.Windows.Forms.Label()
         Me.pnlPlayer = New System.Windows.Forms.Panel()
+        Me.lblPlayerScoreTotal = New System.Windows.Forms.Label()
+        Me.lblPlayerScore6 = New System.Windows.Forms.Label()
+        Me.lblPlayerScore5 = New System.Windows.Forms.Label()
+        Me.lblPlayerScore4 = New System.Windows.Forms.Label()
+        Me.lblPlayerScore3 = New System.Windows.Forms.Label()
+        Me.lblPlayerScore2 = New System.Windows.Forms.Label()
+        Me.lblPlayerScore1 = New System.Windows.Forms.Label()
+        Me.lblPlayerTotal = New System.Windows.Forms.Label()
+        Me.lblPlayerRound6 = New System.Windows.Forms.Label()
+        Me.lblPlayerRound5 = New System.Windows.Forms.Label()
+        Me.lblPlayerRound4 = New System.Windows.Forms.Label()
+        Me.lblPlayerRound3 = New System.Windows.Forms.Label()
+        Me.lblPlayerRound2 = New System.Windows.Forms.Label()
+        Me.lblPlayerRound1 = New System.Windows.Forms.Label()
         Me.lblPlayer = New System.Windows.Forms.Label()
         Me.lblTax = New System.Windows.Forms.Label()
-        Me.lblPlayerRound1 = New System.Windows.Forms.Label()
-        Me.lblPlayerRound2 = New System.Windows.Forms.Label()
-        Me.lblPlayerRound3 = New System.Windows.Forms.Label()
-        Me.lblPlayerRound4 = New System.Windows.Forms.Label()
-        Me.lblPlayerRound5 = New System.Windows.Forms.Label()
-        Me.lblPlayerRound6 = New System.Windows.Forms.Label()
-        Me.lblPlayerTotal = New System.Windows.Forms.Label()
-        Me.lblPlayerScore1 = New System.Windows.Forms.Label()
-        Me.lblPlayerScore2 = New System.Windows.Forms.Label()
-        Me.lblPlayerScore3 = New System.Windows.Forms.Label()
-        Me.lblPlayerScore4 = New System.Windows.Forms.Label()
-        Me.lblPlayerScore5 = New System.Windows.Forms.Label()
-        Me.lblPlayerScore6 = New System.Windows.Forms.Label()
-        Me.lblPlayerScoreTotal = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.lblTaxScoreTotal = New System.Windows.Forms.Label()
         Me.lblTaxScore6 = New System.Windows.Forms.Label()
@@ -106,6 +106,28 @@ Partial Class frmMain
         Me.pnlPile.Size = New System.Drawing.Size(960, 90)
         Me.pnlPile.TabIndex = 1
         '
+        'btn12
+        '
+        Me.btn12.Font = New System.Drawing.Font("Broadway", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn12.Location = New System.Drawing.Point(875, 7)
+        Me.btn12.Margin = New System.Windows.Forms.Padding(2)
+        Me.btn12.Name = "btn12"
+        Me.btn12.Size = New System.Drawing.Size(75, 75)
+        Me.btn12.TabIndex = 11
+        Me.btn12.Text = "12"
+        Me.btn12.UseVisualStyleBackColor = True
+        '
+        'btn11
+        '
+        Me.btn11.Font = New System.Drawing.Font("Broadway", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn11.Location = New System.Drawing.Point(796, 7)
+        Me.btn11.Margin = New System.Windows.Forms.Padding(2)
+        Me.btn11.Name = "btn11"
+        Me.btn11.Size = New System.Drawing.Size(75, 75)
+        Me.btn11.TabIndex = 10
+        Me.btn11.Text = "11"
+        Me.btn11.UseVisualStyleBackColor = True
+        '
         'btn1
         '
         Me.btn1.Font = New System.Drawing.Font("Broadway", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -117,16 +139,6 @@ Partial Class frmMain
         Me.btn1.Text = "1"
         Me.btn1.UseVisualStyleBackColor = True
         '
-        'lblPile
-        '
-        Me.lblPile.AutoSize = True
-        Me.lblPile.Font = New System.Drawing.Font("Broadway", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPile.Location = New System.Drawing.Point(394, 130)
-        Me.lblPile.Name = "lblPile"
-        Me.lblPile.Size = New System.Drawing.Size(193, 31)
-        Me.lblPile.TabIndex = 2
-        Me.lblPile.Text = "Current Pile"
-        '
         'btn2
         '
         Me.btn2.Font = New System.Drawing.Font("Broadway", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -137,6 +149,17 @@ Partial Class frmMain
         Me.btn2.TabIndex = 1
         Me.btn2.Text = "2"
         Me.btn2.UseVisualStyleBackColor = True
+        '
+        'btn10
+        '
+        Me.btn10.Font = New System.Drawing.Font("Broadway", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn10.Location = New System.Drawing.Point(717, 7)
+        Me.btn10.Margin = New System.Windows.Forms.Padding(2)
+        Me.btn10.Name = "btn10"
+        Me.btn10.Size = New System.Drawing.Size(75, 75)
+        Me.btn10.TabIndex = 9
+        Me.btn10.Text = "10"
+        Me.btn10.UseVisualStyleBackColor = True
         '
         'btn3
         '
@@ -160,6 +183,17 @@ Partial Class frmMain
         Me.btn4.Text = "4"
         Me.btn4.UseVisualStyleBackColor = True
         '
+        'btn9
+        '
+        Me.btn9.Font = New System.Drawing.Font("Broadway", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn9.Location = New System.Drawing.Point(638, 7)
+        Me.btn9.Margin = New System.Windows.Forms.Padding(2)
+        Me.btn9.Name = "btn9"
+        Me.btn9.Size = New System.Drawing.Size(75, 75)
+        Me.btn9.TabIndex = 8
+        Me.btn9.Text = "9"
+        Me.btn9.UseVisualStyleBackColor = True
+        '
         'btn5
         '
         Me.btn5.Font = New System.Drawing.Font("Broadway", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -182,17 +216,6 @@ Partial Class frmMain
         Me.btn6.Text = "6"
         Me.btn6.UseVisualStyleBackColor = True
         '
-        'btn7
-        '
-        Me.btn7.Font = New System.Drawing.Font("Broadway", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn7.Location = New System.Drawing.Point(480, 7)
-        Me.btn7.Margin = New System.Windows.Forms.Padding(2)
-        Me.btn7.Name = "btn7"
-        Me.btn7.Size = New System.Drawing.Size(75, 75)
-        Me.btn7.TabIndex = 6
-        Me.btn7.Text = "7"
-        Me.btn7.UseVisualStyleBackColor = True
-        '
         'btn8
         '
         Me.btn8.Font = New System.Drawing.Font("Broadway", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -204,49 +227,26 @@ Partial Class frmMain
         Me.btn8.Text = "8"
         Me.btn8.UseVisualStyleBackColor = True
         '
-        'btn9
+        'btn7
         '
-        Me.btn9.Font = New System.Drawing.Font("Broadway", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn9.Location = New System.Drawing.Point(638, 7)
-        Me.btn9.Margin = New System.Windows.Forms.Padding(2)
-        Me.btn9.Name = "btn9"
-        Me.btn9.Size = New System.Drawing.Size(75, 75)
-        Me.btn9.TabIndex = 8
-        Me.btn9.Text = "9"
-        Me.btn9.UseVisualStyleBackColor = True
+        Me.btn7.Font = New System.Drawing.Font("Broadway", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn7.Location = New System.Drawing.Point(480, 7)
+        Me.btn7.Margin = New System.Windows.Forms.Padding(2)
+        Me.btn7.Name = "btn7"
+        Me.btn7.Size = New System.Drawing.Size(75, 75)
+        Me.btn7.TabIndex = 6
+        Me.btn7.Text = "7"
+        Me.btn7.UseVisualStyleBackColor = True
         '
-        'btn10
+        'lblPile
         '
-        Me.btn10.Font = New System.Drawing.Font("Broadway", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn10.Location = New System.Drawing.Point(717, 7)
-        Me.btn10.Margin = New System.Windows.Forms.Padding(2)
-        Me.btn10.Name = "btn10"
-        Me.btn10.Size = New System.Drawing.Size(75, 75)
-        Me.btn10.TabIndex = 9
-        Me.btn10.Text = "10"
-        Me.btn10.UseVisualStyleBackColor = True
-        '
-        'btn11
-        '
-        Me.btn11.Font = New System.Drawing.Font("Broadway", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn11.Location = New System.Drawing.Point(796, 7)
-        Me.btn11.Margin = New System.Windows.Forms.Padding(2)
-        Me.btn11.Name = "btn11"
-        Me.btn11.Size = New System.Drawing.Size(75, 75)
-        Me.btn11.TabIndex = 10
-        Me.btn11.Text = "11"
-        Me.btn11.UseVisualStyleBackColor = True
-        '
-        'btn12
-        '
-        Me.btn12.Font = New System.Drawing.Font("Broadway", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn12.Location = New System.Drawing.Point(875, 7)
-        Me.btn12.Margin = New System.Windows.Forms.Padding(2)
-        Me.btn12.Name = "btn12"
-        Me.btn12.Size = New System.Drawing.Size(75, 75)
-        Me.btn12.TabIndex = 11
-        Me.btn12.Text = "12"
-        Me.btn12.UseVisualStyleBackColor = True
+        Me.lblPile.AutoSize = True
+        Me.lblPile.Font = New System.Drawing.Font("Broadway", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblPile.Location = New System.Drawing.Point(394, 130)
+        Me.lblPile.Name = "lblPile"
+        Me.lblPile.Size = New System.Drawing.Size(193, 31)
+        Me.lblPile.TabIndex = 2
+        Me.lblPile.Text = "Current Pile"
         '
         'pnlPlayer
         '
@@ -269,6 +269,146 @@ Partial Class frmMain
         Me.pnlPlayer.Size = New System.Drawing.Size(476, 475)
         Me.pnlPlayer.TabIndex = 3
         '
+        'lblPlayerScoreTotal
+        '
+        Me.lblPlayerScoreTotal.Font = New System.Drawing.Font("Britannic Bold", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblPlayerScoreTotal.Location = New System.Drawing.Point(322, 385)
+        Me.lblPlayerScoreTotal.Name = "lblPlayerScoreTotal"
+        Me.lblPlayerScoreTotal.Size = New System.Drawing.Size(151, 30)
+        Me.lblPlayerScoreTotal.TabIndex = 20
+        Me.lblPlayerScoreTotal.Text = "0"
+        Me.lblPlayerScoreTotal.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'lblPlayerScore6
+        '
+        Me.lblPlayerScore6.Font = New System.Drawing.Font("Britannic Bold", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblPlayerScore6.Location = New System.Drawing.Point(240, 325)
+        Me.lblPlayerScore6.Name = "lblPlayerScore6"
+        Me.lblPlayerScore6.Size = New System.Drawing.Size(233, 30)
+        Me.lblPlayerScore6.TabIndex = 19
+        Me.lblPlayerScore6.Text = "0"
+        Me.lblPlayerScore6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'lblPlayerScore5
+        '
+        Me.lblPlayerScore5.Font = New System.Drawing.Font("Britannic Bold", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblPlayerScore5.Location = New System.Drawing.Point(240, 265)
+        Me.lblPlayerScore5.Name = "lblPlayerScore5"
+        Me.lblPlayerScore5.Size = New System.Drawing.Size(233, 30)
+        Me.lblPlayerScore5.TabIndex = 18
+        Me.lblPlayerScore5.Text = "0"
+        Me.lblPlayerScore5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'lblPlayerScore4
+        '
+        Me.lblPlayerScore4.Font = New System.Drawing.Font("Britannic Bold", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblPlayerScore4.Location = New System.Drawing.Point(240, 205)
+        Me.lblPlayerScore4.Name = "lblPlayerScore4"
+        Me.lblPlayerScore4.Size = New System.Drawing.Size(233, 30)
+        Me.lblPlayerScore4.TabIndex = 17
+        Me.lblPlayerScore4.Text = "0"
+        Me.lblPlayerScore4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'lblPlayerScore3
+        '
+        Me.lblPlayerScore3.Font = New System.Drawing.Font("Britannic Bold", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblPlayerScore3.Location = New System.Drawing.Point(240, 145)
+        Me.lblPlayerScore3.Name = "lblPlayerScore3"
+        Me.lblPlayerScore3.Size = New System.Drawing.Size(233, 30)
+        Me.lblPlayerScore3.TabIndex = 16
+        Me.lblPlayerScore3.Text = "0"
+        Me.lblPlayerScore3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'lblPlayerScore2
+        '
+        Me.lblPlayerScore2.Font = New System.Drawing.Font("Britannic Bold", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblPlayerScore2.Location = New System.Drawing.Point(240, 85)
+        Me.lblPlayerScore2.Name = "lblPlayerScore2"
+        Me.lblPlayerScore2.Size = New System.Drawing.Size(233, 30)
+        Me.lblPlayerScore2.TabIndex = 15
+        Me.lblPlayerScore2.Text = "0"
+        Me.lblPlayerScore2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'lblPlayerScore1
+        '
+        Me.lblPlayerScore1.Font = New System.Drawing.Font("Britannic Bold", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblPlayerScore1.Location = New System.Drawing.Point(240, 25)
+        Me.lblPlayerScore1.Name = "lblPlayerScore1"
+        Me.lblPlayerScore1.Size = New System.Drawing.Size(233, 30)
+        Me.lblPlayerScore1.TabIndex = 14
+        Me.lblPlayerScore1.Text = "0"
+        Me.lblPlayerScore1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'lblPlayerTotal
+        '
+        Me.lblPlayerTotal.AutoSize = True
+        Me.lblPlayerTotal.Font = New System.Drawing.Font("Britannic Bold", 20.25!, CType((System.Drawing.FontStyle.Italic Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblPlayerTotal.Location = New System.Drawing.Point(80, 385)
+        Me.lblPlayerTotal.Name = "lblPlayerTotal"
+        Me.lblPlayerTotal.Size = New System.Drawing.Size(179, 30)
+        Me.lblPlayerTotal.TabIndex = 13
+        Me.lblPlayerTotal.Text = "Player's Total:"
+        '
+        'lblPlayerRound6
+        '
+        Me.lblPlayerRound6.AutoSize = True
+        Me.lblPlayerRound6.Font = New System.Drawing.Font("Britannic Bold", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblPlayerRound6.Location = New System.Drawing.Point(116, 325)
+        Me.lblPlayerRound6.Name = "lblPlayerRound6"
+        Me.lblPlayerRound6.Size = New System.Drawing.Size(123, 30)
+        Me.lblPlayerRound6.TabIndex = 12
+        Me.lblPlayerRound6.Text = "Round 6:"
+        '
+        'lblPlayerRound5
+        '
+        Me.lblPlayerRound5.AutoSize = True
+        Me.lblPlayerRound5.Font = New System.Drawing.Font("Britannic Bold", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblPlayerRound5.Location = New System.Drawing.Point(117, 265)
+        Me.lblPlayerRound5.Name = "lblPlayerRound5"
+        Me.lblPlayerRound5.Size = New System.Drawing.Size(123, 30)
+        Me.lblPlayerRound5.TabIndex = 11
+        Me.lblPlayerRound5.Text = "Round 5:"
+        '
+        'lblPlayerRound4
+        '
+        Me.lblPlayerRound4.AutoSize = True
+        Me.lblPlayerRound4.Font = New System.Drawing.Font("Britannic Bold", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblPlayerRound4.Location = New System.Drawing.Point(116, 205)
+        Me.lblPlayerRound4.Name = "lblPlayerRound4"
+        Me.lblPlayerRound4.Size = New System.Drawing.Size(122, 30)
+        Me.lblPlayerRound4.TabIndex = 10
+        Me.lblPlayerRound4.Text = "Round 4:"
+        '
+        'lblPlayerRound3
+        '
+        Me.lblPlayerRound3.AutoSize = True
+        Me.lblPlayerRound3.Font = New System.Drawing.Font("Britannic Bold", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblPlayerRound3.Location = New System.Drawing.Point(117, 145)
+        Me.lblPlayerRound3.Name = "lblPlayerRound3"
+        Me.lblPlayerRound3.Size = New System.Drawing.Size(123, 30)
+        Me.lblPlayerRound3.TabIndex = 9
+        Me.lblPlayerRound3.Text = "Round 3:"
+        '
+        'lblPlayerRound2
+        '
+        Me.lblPlayerRound2.AutoSize = True
+        Me.lblPlayerRound2.Font = New System.Drawing.Font("Britannic Bold", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblPlayerRound2.Location = New System.Drawing.Point(117, 85)
+        Me.lblPlayerRound2.Name = "lblPlayerRound2"
+        Me.lblPlayerRound2.Size = New System.Drawing.Size(122, 30)
+        Me.lblPlayerRound2.TabIndex = 8
+        Me.lblPlayerRound2.Text = "Round 2:"
+        '
+        'lblPlayerRound1
+        '
+        Me.lblPlayerRound1.AutoSize = True
+        Me.lblPlayerRound1.Font = New System.Drawing.Font("Britannic Bold", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblPlayerRound1.Location = New System.Drawing.Point(117, 25)
+        Me.lblPlayerRound1.Name = "lblPlayerRound1"
+        Me.lblPlayerRound1.Size = New System.Drawing.Size(122, 30)
+        Me.lblPlayerRound1.TabIndex = 7
+        Me.lblPlayerRound1.Text = "Round 1:"
+        '
         'lblPlayer
         '
         Me.lblPlayer.AutoSize = True
@@ -288,146 +428,6 @@ Partial Class frmMain
         Me.lblTax.Size = New System.Drawing.Size(251, 31)
         Me.lblTax.TabIndex = 6
         Me.lblTax.Text = "Tax Man's Stack"
-        '
-        'lblPlayerRound1
-        '
-        Me.lblPlayerRound1.AutoSize = True
-        Me.lblPlayerRound1.Font = New System.Drawing.Font("Britannic Bold", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPlayerRound1.Location = New System.Drawing.Point(117, 25)
-        Me.lblPlayerRound1.Name = "lblPlayerRound1"
-        Me.lblPlayerRound1.Size = New System.Drawing.Size(122, 30)
-        Me.lblPlayerRound1.TabIndex = 7
-        Me.lblPlayerRound1.Text = "Round 1:"
-        '
-        'lblPlayerRound2
-        '
-        Me.lblPlayerRound2.AutoSize = True
-        Me.lblPlayerRound2.Font = New System.Drawing.Font("Britannic Bold", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPlayerRound2.Location = New System.Drawing.Point(117, 85)
-        Me.lblPlayerRound2.Name = "lblPlayerRound2"
-        Me.lblPlayerRound2.Size = New System.Drawing.Size(122, 30)
-        Me.lblPlayerRound2.TabIndex = 8
-        Me.lblPlayerRound2.Text = "Round 2:"
-        '
-        'lblPlayerRound3
-        '
-        Me.lblPlayerRound3.AutoSize = True
-        Me.lblPlayerRound3.Font = New System.Drawing.Font("Britannic Bold", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPlayerRound3.Location = New System.Drawing.Point(117, 145)
-        Me.lblPlayerRound3.Name = "lblPlayerRound3"
-        Me.lblPlayerRound3.Size = New System.Drawing.Size(123, 30)
-        Me.lblPlayerRound3.TabIndex = 9
-        Me.lblPlayerRound3.Text = "Round 3:"
-        '
-        'lblPlayerRound4
-        '
-        Me.lblPlayerRound4.AutoSize = True
-        Me.lblPlayerRound4.Font = New System.Drawing.Font("Britannic Bold", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPlayerRound4.Location = New System.Drawing.Point(116, 205)
-        Me.lblPlayerRound4.Name = "lblPlayerRound4"
-        Me.lblPlayerRound4.Size = New System.Drawing.Size(122, 30)
-        Me.lblPlayerRound4.TabIndex = 10
-        Me.lblPlayerRound4.Text = "Round 4:"
-        '
-        'lblPlayerRound5
-        '
-        Me.lblPlayerRound5.AutoSize = True
-        Me.lblPlayerRound5.Font = New System.Drawing.Font("Britannic Bold", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPlayerRound5.Location = New System.Drawing.Point(117, 265)
-        Me.lblPlayerRound5.Name = "lblPlayerRound5"
-        Me.lblPlayerRound5.Size = New System.Drawing.Size(123, 30)
-        Me.lblPlayerRound5.TabIndex = 11
-        Me.lblPlayerRound5.Text = "Round 5:"
-        '
-        'lblPlayerRound6
-        '
-        Me.lblPlayerRound6.AutoSize = True
-        Me.lblPlayerRound6.Font = New System.Drawing.Font("Britannic Bold", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPlayerRound6.Location = New System.Drawing.Point(116, 325)
-        Me.lblPlayerRound6.Name = "lblPlayerRound6"
-        Me.lblPlayerRound6.Size = New System.Drawing.Size(123, 30)
-        Me.lblPlayerRound6.TabIndex = 12
-        Me.lblPlayerRound6.Text = "Round 6:"
-        '
-        'lblPlayerTotal
-        '
-        Me.lblPlayerTotal.AutoSize = True
-        Me.lblPlayerTotal.Font = New System.Drawing.Font("Britannic Bold", 20.25!, CType((System.Drawing.FontStyle.Italic Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPlayerTotal.Location = New System.Drawing.Point(59, 385)
-        Me.lblPlayerTotal.Name = "lblPlayerTotal"
-        Me.lblPlayerTotal.Size = New System.Drawing.Size(179, 30)
-        Me.lblPlayerTotal.TabIndex = 13
-        Me.lblPlayerTotal.Text = "Player's Total:"
-        '
-        'lblPlayerScore1
-        '
-        Me.lblPlayerScore1.Font = New System.Drawing.Font("Britannic Bold", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPlayerScore1.Location = New System.Drawing.Point(240, 25)
-        Me.lblPlayerScore1.Name = "lblPlayerScore1"
-        Me.lblPlayerScore1.Size = New System.Drawing.Size(157, 30)
-        Me.lblPlayerScore1.TabIndex = 14
-        Me.lblPlayerScore1.Text = "0"
-        Me.lblPlayerScore1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'lblPlayerScore2
-        '
-        Me.lblPlayerScore2.Font = New System.Drawing.Font("Britannic Bold", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPlayerScore2.Location = New System.Drawing.Point(240, 85)
-        Me.lblPlayerScore2.Name = "lblPlayerScore2"
-        Me.lblPlayerScore2.Size = New System.Drawing.Size(157, 30)
-        Me.lblPlayerScore2.TabIndex = 15
-        Me.lblPlayerScore2.Text = "0"
-        Me.lblPlayerScore2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'lblPlayerScore3
-        '
-        Me.lblPlayerScore3.Font = New System.Drawing.Font("Britannic Bold", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPlayerScore3.Location = New System.Drawing.Point(240, 145)
-        Me.lblPlayerScore3.Name = "lblPlayerScore3"
-        Me.lblPlayerScore3.Size = New System.Drawing.Size(157, 30)
-        Me.lblPlayerScore3.TabIndex = 16
-        Me.lblPlayerScore3.Text = "0"
-        Me.lblPlayerScore3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'lblPlayerScore4
-        '
-        Me.lblPlayerScore4.Font = New System.Drawing.Font("Britannic Bold", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPlayerScore4.Location = New System.Drawing.Point(240, 205)
-        Me.lblPlayerScore4.Name = "lblPlayerScore4"
-        Me.lblPlayerScore4.Size = New System.Drawing.Size(157, 30)
-        Me.lblPlayerScore4.TabIndex = 17
-        Me.lblPlayerScore4.Text = "0"
-        Me.lblPlayerScore4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'lblPlayerScore5
-        '
-        Me.lblPlayerScore5.Font = New System.Drawing.Font("Britannic Bold", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPlayerScore5.Location = New System.Drawing.Point(240, 265)
-        Me.lblPlayerScore5.Name = "lblPlayerScore5"
-        Me.lblPlayerScore5.Size = New System.Drawing.Size(157, 30)
-        Me.lblPlayerScore5.TabIndex = 18
-        Me.lblPlayerScore5.Text = "0"
-        Me.lblPlayerScore5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'lblPlayerScore6
-        '
-        Me.lblPlayerScore6.Font = New System.Drawing.Font("Britannic Bold", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPlayerScore6.Location = New System.Drawing.Point(240, 325)
-        Me.lblPlayerScore6.Name = "lblPlayerScore6"
-        Me.lblPlayerScore6.Size = New System.Drawing.Size(157, 30)
-        Me.lblPlayerScore6.TabIndex = 19
-        Me.lblPlayerScore6.Text = "0"
-        Me.lblPlayerScore6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'lblPlayerScoreTotal
-        '
-        Me.lblPlayerScoreTotal.Font = New System.Drawing.Font("Britannic Bold", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPlayerScoreTotal.Location = New System.Drawing.Point(240, 385)
-        Me.lblPlayerScoreTotal.Name = "lblPlayerScoreTotal"
-        Me.lblPlayerScoreTotal.Size = New System.Drawing.Size(157, 30)
-        Me.lblPlayerScoreTotal.TabIndex = 20
-        Me.lblPlayerScoreTotal.Text = "0"
-        Me.lblPlayerScoreTotal.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Panel1
         '
@@ -453,9 +453,9 @@ Partial Class frmMain
         'lblTaxScoreTotal
         '
         Me.lblTaxScoreTotal.Font = New System.Drawing.Font("Britannic Bold", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblTaxScoreTotal.Location = New System.Drawing.Point(240, 385)
+        Me.lblTaxScoreTotal.Location = New System.Drawing.Point(312, 385)
         Me.lblTaxScoreTotal.Name = "lblTaxScoreTotal"
-        Me.lblTaxScoreTotal.Size = New System.Drawing.Size(157, 30)
+        Me.lblTaxScoreTotal.Size = New System.Drawing.Size(154, 30)
         Me.lblTaxScoreTotal.TabIndex = 20
         Me.lblTaxScoreTotal.Text = "0"
         Me.lblTaxScoreTotal.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -465,7 +465,7 @@ Partial Class frmMain
         Me.lblTaxScore6.Font = New System.Drawing.Font("Britannic Bold", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTaxScore6.Location = New System.Drawing.Point(240, 325)
         Me.lblTaxScore6.Name = "lblTaxScore6"
-        Me.lblTaxScore6.Size = New System.Drawing.Size(157, 30)
+        Me.lblTaxScore6.Size = New System.Drawing.Size(226, 30)
         Me.lblTaxScore6.TabIndex = 19
         Me.lblTaxScore6.Text = "0"
         Me.lblTaxScore6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -475,7 +475,7 @@ Partial Class frmMain
         Me.lblTaxScore5.Font = New System.Drawing.Font("Britannic Bold", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTaxScore5.Location = New System.Drawing.Point(240, 265)
         Me.lblTaxScore5.Name = "lblTaxScore5"
-        Me.lblTaxScore5.Size = New System.Drawing.Size(157, 30)
+        Me.lblTaxScore5.Size = New System.Drawing.Size(226, 30)
         Me.lblTaxScore5.TabIndex = 18
         Me.lblTaxScore5.Text = "0"
         Me.lblTaxScore5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -485,7 +485,7 @@ Partial Class frmMain
         Me.lblTaxScore4.Font = New System.Drawing.Font("Britannic Bold", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTaxScore4.Location = New System.Drawing.Point(240, 205)
         Me.lblTaxScore4.Name = "lblTaxScore4"
-        Me.lblTaxScore4.Size = New System.Drawing.Size(157, 30)
+        Me.lblTaxScore4.Size = New System.Drawing.Size(226, 30)
         Me.lblTaxScore4.TabIndex = 17
         Me.lblTaxScore4.Text = "0"
         Me.lblTaxScore4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -495,7 +495,7 @@ Partial Class frmMain
         Me.lblTaxScore3.Font = New System.Drawing.Font("Britannic Bold", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTaxScore3.Location = New System.Drawing.Point(240, 145)
         Me.lblTaxScore3.Name = "lblTaxScore3"
-        Me.lblTaxScore3.Size = New System.Drawing.Size(157, 30)
+        Me.lblTaxScore3.Size = New System.Drawing.Size(226, 30)
         Me.lblTaxScore3.TabIndex = 16
         Me.lblTaxScore3.Text = "0"
         Me.lblTaxScore3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -505,7 +505,7 @@ Partial Class frmMain
         Me.lblTaxScore2.Font = New System.Drawing.Font("Britannic Bold", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTaxScore2.Location = New System.Drawing.Point(240, 85)
         Me.lblTaxScore2.Name = "lblTaxScore2"
-        Me.lblTaxScore2.Size = New System.Drawing.Size(157, 30)
+        Me.lblTaxScore2.Size = New System.Drawing.Size(226, 30)
         Me.lblTaxScore2.TabIndex = 15
         Me.lblTaxScore2.Text = "0"
         Me.lblTaxScore2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -515,7 +515,7 @@ Partial Class frmMain
         Me.lblTaxScore1.Font = New System.Drawing.Font("Britannic Bold", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTaxScore1.Location = New System.Drawing.Point(240, 25)
         Me.lblTaxScore1.Name = "lblTaxScore1"
-        Me.lblTaxScore1.Size = New System.Drawing.Size(157, 30)
+        Me.lblTaxScore1.Size = New System.Drawing.Size(226, 30)
         Me.lblTaxScore1.TabIndex = 14
         Me.lblTaxScore1.Text = "0"
         Me.lblTaxScore1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -524,7 +524,7 @@ Partial Class frmMain
         '
         Me.lblTaxTotal.AutoSize = True
         Me.lblTaxTotal.Font = New System.Drawing.Font("Britannic Bold", 20.25!, CType((System.Drawing.FontStyle.Italic Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblTaxTotal.Location = New System.Drawing.Point(25, 385)
+        Me.lblTaxTotal.Location = New System.Drawing.Point(70, 385)
         Me.lblTaxTotal.Name = "lblTaxTotal"
         Me.lblTaxTotal.Size = New System.Drawing.Size(203, 30)
         Me.lblTaxTotal.TabIndex = 13
