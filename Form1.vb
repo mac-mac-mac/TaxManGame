@@ -127,10 +127,10 @@ Public Class frmMain
     Private Sub btnInstructions_Click(sender As Object, e As EventArgs) Handles btnInstructions.Click
         Dim msg As String
         msg = "HOW TO PLAY:" + vbNewLine + vbNewLine
-        msg = msg + "Each round, you can choose any number from the pile which has also has factors in the pile."
+        msg = msg + "Each round, you can choose any number from the pile which also has factors in the pile."
         msg = msg + " (Factors are numbers that divide evenly into a number)" + vbNewLine + vbNewLine
-        msg = msg + "After you choose a number, the Tax Man recieves all of the factors of that number which are still in the pile." + vbNewLine + vbNewLine
-        msg = msg + "When there are no more numbers in the pile which also have factors in the pile, the Tax Man recieves all remaining numbers in the pile." + vbNewLine + vbNewLine
+        msg = msg + "After you choose a number, the Tax Man receives all of the factors of that number which are still in the pile." + vbNewLine + vbNewLine
+        msg = msg + "When there are no more numbers in the pile which also have factors in the pile, the Tax Man receives all remaining numbers in the pile." + vbNewLine + vbNewLine
         msg = msg + "Your final score is the sum of all of your chosen numbers."
         msg = msg + " Try to get a higher final score than the Tax Man to win!"
         MsgBox(msg)
